@@ -4,7 +4,7 @@ set number
 " Highlight current line
 "set cursorline
 " Tab settings
-set expandtab
+set noexpandtab
 set smarttab
 set tabstop=4
 set shiftwidth=4
