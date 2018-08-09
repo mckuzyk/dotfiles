@@ -94,7 +94,7 @@ fi
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'
+alias l='ls -GFh'
 alias ld='ls -d \.[^.]*'
 
 # Add an "alert" alias for long running commands.  Use like so:
@@ -124,6 +124,11 @@ fi
 # Sets the Mail Environment Variable
 MAIL=/var/spool/mail/mark && export MAIL
 
+alias downloads='cd $(echo $HOME)/Downloads'
+alias papers='cd $(echo $HOME)/Dropbox/Work_synch/useful_papers'
+
+export CLICOLOR=1
+#export LSCOLORS=ExFxBxDxCxegedabagacad
 
 export PATH=$PATH:~/bin:~/Dropbox/bin
 export pyCode=~/Dropbox/Work_synch/Optomechanics/calculations/python_code/
